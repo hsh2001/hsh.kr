@@ -2,6 +2,7 @@
   "name": "react-template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://hsh.kr",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,6 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "npx eslint './src/**/*.{js,jsx}'",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +41,7 @@
   },
   "devDependencies": {
     "eslint": "^6.6.0",
+    "gh-pages": "^2.2.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1"
